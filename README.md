@@ -77,7 +77,7 @@ If you have issues with postgres, for example `django.db.utils.OperationalError:
 Create a new app and model called Team that just has a field `name` and then add a foreign key to `Team` called `team` on `Client`, nullable, and make the necessary migrations and migrate.
 
 1. Create TeamSerializer
-2. Update ClientSerializer to be nested
+2. Update ClientSerializer to have TeamSerializer nested underneath (feel free to use the Django Rest Framework docs for this)
 3. Check our work
 
 ## Exercise
