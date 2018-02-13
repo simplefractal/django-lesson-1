@@ -6,13 +6,11 @@ Students will be able to
 - create management commands
 
 # Agenda
-1. [10] Warm Up Exercise
-2. [20] Create nested serializers
-3. [5] Management commands
-4. [15] Exercise: Create dummy data using management command
-5. [5] Measuring # of queries
-6. [20] Optimizing the endpoint
-7. [10] Open Q & A, Feedback
+1. [10] Walk through code-base
+2. [5] Management commands
+3. [15] Exercise: Create dummy data using management command
+4. [30] Optimizing the endpoint
+5. [10] Open Q & A, Feedback
 
 # Warm Up Exercise
 1. Create an app called `project`
@@ -28,11 +26,14 @@ Students will be able to
 Let's create a dummy management command.
 
 # Exercise: Create dummy data using management commands.
-- Create 100 projects
+- Create 300 projects
 - Create 10 members
 - Create 15 clients
+- Create 20 TaskTags, of which one is "Urgent" 
 
 For each project, randomly assign 3 members and randomly pick a client.
+
+For each client, create 5 tasks and randomly assign 1-3 tasktags to each task.
 
 # Measuring # of queries
 Let's use `django-querycount`.

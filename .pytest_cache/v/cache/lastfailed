@@ -1,0 +1,3 @@
+{
+  "collage/tag/tests/test_tag_endpoints.py::TestClientEndpoints::test_tag_endpoint_returns_correct_data_and_is_200": true
+}
