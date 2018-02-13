@@ -40,8 +40,11 @@ INSTALLED_APPS = [
 
     'rest_framework',
 
+    'account',
     'client',
+    'project',
     'tag',
+    'task',
 ]
 
 MIDDLEWARE = [
@@ -52,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'querycount.middleware.QueryCountMiddleware',
 ]
 
 ROOT_URLCONF = 'collage.urls'

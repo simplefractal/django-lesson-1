@@ -18,8 +18,10 @@ from django.urls import path
 from django.conf.urls import url
 
 from client.views import ClientList
+from project.views import ProjectList
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^clients/$', ClientList.as_view()),
+    url(r'^projects/$', ProjectList.as_view()),
 ]
